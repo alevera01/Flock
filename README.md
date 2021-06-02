@@ -3,6 +3,7 @@
 <li>Instalacion</li>
 <li>Solucion</li>
 <li>Consideraciones</li>
+<li>Frameworks Utilizados</li>
 </ol>
 <h1>Instalacion</h1>
 <p>En el proyecto Db se encuentran 2 scripts . Uno crea la base de datos y las tablas. El segundo realiza los inserts en las tablas
@@ -16,3 +17,6 @@ Se crea una aplicacion MVC, la cual contiene una API que expone los dos endpoins
 probar los endpoints anteriormente descriptos</p>
 <p>La vista que simula el login busca el usuario dentro de la base de datos.</p>
 <p>Se escribe el log de la aplicacion en una carpeta dentro de la Web Application llamada Log</p>
+<h1>Frameworks Utilizados</h1>
+<li>Se utilizo Swagger para docuementar la api.</li> 
+<li>Se utilizo Serilog para generar los log de aplicacion</li>
