@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="83e9afe6f24b4140a785b3529e690f81" Name="Diagram1">
+        <EntityTypeShape EntityType="EjercicioApiModel.ROLES" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="EjercicioApiModel.USUARIOS" Width="1.5" PointX="3" PointY="4.25" />
+        <AssociationConnector Association="EjercicioApiModel.FK_USUARIOS_ROLES" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

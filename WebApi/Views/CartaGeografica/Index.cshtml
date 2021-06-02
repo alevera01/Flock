@@ -1,0 +1,14 @@
+﻿@model WebApi.Models.Carta
+@{
+    ViewBag.Title = "Carta - Geografica";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm("ObtenerDatos", "CartaGeografica", FormMethod.Post))
+{
+    <label for="cars">Choose a car:</label>
+
+    @Html.DropDownListFor(o =>o.Pcia, Model.Provincias, new Dictionary<string, object> { { "class", "input-xxlarge select2" }, { "id", "dpd_reportes" } })
+
+    <input type="submit" value="Obtener Latitud y Longitud" />
+}
